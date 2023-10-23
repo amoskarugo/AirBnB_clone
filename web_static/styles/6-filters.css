@@ -1,0 +1,26 @@
+
+
+/* 6-filters.css*/
+.popover{
+    background-color: #fafafa;
+    width: 100%;
+    border: 1px solid #DDDDDD;
+    border-radius: 4px;
+    display: block;
+    visibility: hidden;
+    /* position: absolute; */
+    top: 100%;
+
+}
+.popover li{
+    padding: 0;
+    margin: 0;
+}
+.locations:hover .popover{
+    display: block;
+    visibility: visible;
+}
+.amenities:hover .popover{
+    display: block;
+    visibility: visible;
+}
